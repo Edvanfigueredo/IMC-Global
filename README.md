@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./1img.jpg" alt="IMC Global - IA Nutricional" width="100%" />
+  <img src="./1imc.jpg" alt="IMC Global - IA Nutricional" width="100%" />
 </p>
 
 # 🌍 Analisador de IMC Global com IA Nutricional
@@ -71,6 +71,8 @@ IMC-Global/
 ├── script.js
 ├── 1img.jpg
 └── README.md
+
+```
 🚀 Como Executar o Projeto
 Opção 1 – Online
 Acesse diretamente pelo GitHub Pages:
@@ -79,22 +81,25 @@ Acesse diretamente pelo GitHub Pages:
 Opção 2 – Local
 Clone o repositório:
 
-bash
+```bash
 Copiar código
 git clone https://github.com/Edvanfigueredo/IMC-Global.git
+```
 Acesse a pasta:
 
-bash
+```bash
 Copiar código
 cd IMC-Global
+```
 Abra o arquivo:
 
-bash
+```bash
 Copiar código
 index.html
+```
 (Pode abrir direto no navegador)
 
-🌍 Países Suportados
+## 🌍 Países Suportados
 🇧🇷 Brasil
 
 🇺🇸 Estados Unidos
@@ -149,15 +154,16 @@ Cada plano inclui:
 
 🔧 Personalização (para desenvolvedores)
 Adicionar novo país
-js
+```js
 Copiar código
 countryIMCData['Novo País'] = {
   avgIMC: 25.0,
   obesity: 20.0,
   position: 100
 };
+```
 Adicionar alimentos por país
-js
+```js
 Copiar código
 countryFoodBase['Novo País'] = {
   carbs: [],
@@ -167,6 +173,7 @@ countryFoodBase['Novo País'] = {
   fruits: [],
   fats: []
 };
+```
 📝 Roadmap
  Exportação em PDF
 
@@ -198,4 +205,18 @@ Edvan Figuerêdo Araujo
 
 ⭐ Se este projeto te ajudou, deixe uma estrela no GitHub!
 
-**Made with ❤️ in Brazil** 🇧🇷
+````
+---
+
+## ✅ Checklist rápido (importante)
+Antes de dar `git push`:
+- ✔️ `README.md` salvo
+- ✔️ `1img.jpg` está **na raiz do projeto**
+- ✔️ Nome do arquivo exatamente: `1img.jpg` (maiúsculas contam)
+
+Depois:
+```bash
+git add README.md 1img.jpg
+git commit -m "Update README with cover image and full documentation"
+git push
+```
