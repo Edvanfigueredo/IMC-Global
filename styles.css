@@ -1,0 +1,42 @@
+/* Fundo original */
+body {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyNCIgaGVpZ2h0PSIxMDI0IiB2aWV3Qm94PSIwIDAgMTAyNCAxMDI0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMTAyNCIgaGVpZ2h0PSIxMDI0IiBmaWxsPSIjMzY1ODRjIi8+CjxjaXJjbGUgY3g9IjUxMiIgY3k9IjUxMiIgcj0iMzAwIiBzdHJva2U9IiM4YWI2NjEiIHN0cm9rZS13aWR0aD0iNDAiIGZpbGw9Im5vbmUiIG9wYWNpdHk9IjAuMyIvPgo8Y2lyY2xlIGN4PSI1MTIiIGN5PSI1MTIiIHI9IjI1MCIgZmlsbD0iIzZhOWM1YiIgb3BhY2l0eT0iMC4yIi8+Cjwvc3ZnPg==');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #36584c;
+}
+
+/* Glass UI */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+}
+
+/* Impressão: mostra só o conteúdo relevante */
+@media print {
+  body {
+    background: #fff !important;
+  }
+
+  header,
+  footer,
+  #btnPrint,
+  #btnCalculate,
+  .glass-effect:not(#results):not(#dietSection) {
+    display: none !important;
+  }
+
+  #results,
+  #dietSection {
+    display: block !important;
+    box-shadow: none !important;
+    background: #fff !important;
+  }
+
+  /* Evita quebra ruim dos cards */
+  #dietPlan > div {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
