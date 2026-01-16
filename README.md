@@ -7,7 +7,7 @@
 Aplicação web interativa que calcula o **Índice de Massa Corporal (IMC)**, realiza **comparação global por país** e gera **planos nutricionais personalizados** utilizando **lógica inteligente baseada em IA**, considerando preferências alimentares e hábitos locais.
 
 🔗 **Demo do Projeto:**  
-👉 https://edvanfigueredo.github.io/IMC-Global/
+👉https://edvanfigueredo.github.io/IMC_BMI_health/
 
 ---
 
@@ -76,14 +76,14 @@ IMC-Global/
 🚀 Como Executar o Projeto
 Opção 1 – Online
 Acesse diretamente pelo GitHub Pages:
-👉 https://edvanfigueredo.github.io/IMC-Global/
+👉 https://edvanfigueredo.github.io/IMC_BMI_health/
 
 Opção 2 – Local
 Clone o repositório:
 
 ```bash
 Copiar código
-git clone https://github.com/Edvanfigueredo/IMC-Global.git
+git clone https://github.com/Edvanfigueredo/IMC_BMI_health.git
 ```
 Acesse a pasta:
 
